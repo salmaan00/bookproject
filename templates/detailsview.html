@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content  %}
+
+<h1 align="center">Book Details</h1>
+<br>
+<div class="card" style="width:18rem;">
+ <img src="{{ book.image.url  }}" class="card-img-top" alt="...">
+ <div class="card-body">
+  <p class="card-text">{{ book.title  }}</p>
+  <p>{{ book.price  }}</p>
+ </div>
+</div>
+
+{% endblock  %}
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+
